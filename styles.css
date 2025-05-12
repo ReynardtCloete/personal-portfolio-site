@@ -51,6 +51,7 @@ h6::selection {
 }
 
 #torch-overlay {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -330,6 +331,11 @@ footer p {
         gap: 2rem;    
         padding: 0 6rem;                  
     }
+
+    #torch-overlay {
+        display: block;
+    }
+
     /*-This part here ensures that when screen gets bigger and bigger, things don't keep stretching but keeps holding together-*/
     header,
     main {
