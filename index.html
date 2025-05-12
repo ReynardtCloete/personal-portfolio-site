@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rey Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> <!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--icon link-->
+    <script src="script.js"></script>
+</head>
+
+<body id="top-of-page">
+    <div class="underlay"></div> <!--Allows you to lay an invisible layer OVER the context of page-->
+
+    <header>
+         
+        <a href="/">
+            <h1>Reynardt Cloete</h1>
+        </a>
+        <h4>Full Stack Developer</h4>
+        <p>I build accessible, pixel-perfect digital experiences for the web.</p>
+
+        <nav>
+           <a class="anchor-text" href="#about"><p>About</p></a> 
+           <a class="anchor-text" href="#experience"><p>Experience</p></a>
+           <a class="anchor-text" href="#projects"><p>Projects</p></a>
+        </nav>
+
+        <div class="social-link-container">
+
+            <a class="social-link" href="https://www.linkedin.com/in/reynardt-cloete-105417b8/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a class="social-link" href="https://www.linkedin.com/in/reynardt-cloete-105417b8/" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            
+            <a class="social-link" href="https://www.linkedin.com/in/reynardt-cloete-105417b8/" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+            <a class="social-link" href="https://www.linkedin.com/in/reynardt-cloete-105417b8/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="about">
+
+            <div class="sticky-header">
+                <h2 class="lightText">About</h2>
+            </div>
+
+            <div class="about-content">
+
+                <P>Hi, I'm Reynardt—a self-taught full stack developer with a background as unique as my code. By day, 
+                    I serve in the military, where discipline, structure, and problem-solving are second nature. 
+                    I also hold an honours degree in psychology, which has shaped the way I think about user experience, 
+                    behavior, and building tech that connects with real people.   
+                </P>
+
+                <P>As someone new to the field, I'm building a strong foundation by working on personal projects that solve
+                   real-world problems, while continuously expanding my knowledge through hands-on practice and study. 
+                   I'm passionate about continuous learning and have a strong growth mindset. Outside of coding, you'll usually find 
+                   me road biking, gaming, reading about theology, or lifting weights. 
+                </P>
+
+                <P> 
+                   Currently, I'm a Logistic Coordinator and Sergeant in the South African Air Force, where I manage mission-critical 
+                   data, documentation, and maintenance workflows for aircraft operations. My role has sharpened my attention to detail, 
+                   my ability to work under pressure, and my love for systems that run efficiently.
+                   <a class="anchor-text" target="blank" href="https://smoljames.com/roadmap">Click here to view my learning path</a>
+                </P>
+
+            </div>
+
+        </section>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+
+        <section id="experience">
+
+            <div class="sticky-header">
+                <h2 class="lightText">Experience</h2>
+            </div>
+
+            <div class="experience-content">
+
+                <div class="experience-card"> <!--This part splits into left grid with bigger size-->
+                    
+                    <p class="tenure">2025 - present</p>
+
+                    <div class="card-column"> <!--This part has it's own flex column-->
+
+                        <a class="anchor-link" href="/" target="blank">
+                            <h3 class="anchor-text card-header">Freelance Full Stack Developer · ReyBan</h3>
+                        </a> <!--anchor-text applies to some text in about section as well.-->
+                             <!--Text decoration wasn't removed from this anchor tag as with the one in about, hence the anchor-link class-->
+                        <P class="card-p">I'm a self-taught full stack developer passionate about bringing ideas to life through clean, sc
+                            thoughtful design. I enjoy building dynamic user interfaces, robust backend systems, and everything in
+                            between.
+                        </P>
+
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JAVASCRIPT</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="experience-card"> <!--This part splits into left grid with bigger size-->
+    
+                    <p class="tenure">2025 - present</p>
+
+                    <div class="card-column"> <!--This part has it's own flex column-->
+                        <a class="anchor-link" href="/" target="blank">
+                            <h3 class="anchor-text card-header">Freelance Full Stack Developer · ReyBan</h3>
+                        </a> <!--anchor-text applies to some text in about section as well.-->
+                             <!--Text decoration wasn't removed from this anchor tag as with the one in about, hence the anchor-link class-->
+                        <P class="card-p">I'm a self-taught full stack developer passionate about bringing ideas to life through clean, sc
+                            thoughtful design. I enjoy building dynamic user interfaces, robust backend systems, and everything in
+                            between.
+                        </P>
+
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JAVASCRIPT</p>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <a href="/" class="resume anchor-text"><p>View Full Resume</p></a>
+
+            </div>
+
+        </section>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+
+        <section id="projects">
+
+            <div class="sticky-header">
+                <h2 class="lightText">Projects</h2>
+            </div>
+
+            <div class="project-contents">
+
+                <div class="project-card"> 
+    
+                    <div class="project-image-container">
+                        <img src="./public/Google-Home-Page-Dark-Mode.jpg" alt="google-homepage-pic">
+                    </div>
+
+                    <div class="card-column"> 
+
+                        <a class="anchor-link" href="/" target="blank">
+                            <h3 class="anchor-text card-header">Freelance Full Stack Developer · ReyBan</h3>
+                        </a> 
+                             
+                        <P class="card-p">I'm a self-taught full stack developer passionate about bringing ideas to life through clean, sc
+                            thoughtful design. I enjoy building dynamic user interfaces, robust backend systems, and everything in
+                            between.
+                        </P>
+
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JAVASCRIPT</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card"> 
+
+                    <div class="project-image-container">
+                        <img src="./public/Google-Home-Page-Dark-Mode.jpg" alt="google-homepage-pic">
+                    </div>
+
+                    <div class="card-column"> 
+
+                        <a class="anchor-link" href="/" target="blank">
+                            <h3 class="anchor-text card-header">Freelance Full Stack Developer · ReyBan</h3>
+                        </a> 
+                             
+                        <P class="card-p">I'm a self-taught full stack developer passionate about bringing ideas to life through clean, sc
+                            thoughtful design. I enjoy building dynamic user interfaces, robust backend systems, and everything in
+                            between.
+                        </P>
+
+                        <div class="tag-container">
+                            <p class="tag">HTML</p>
+                            <p class="tag">CSS</p>
+                            <p class="tag">JAVASCRIPT</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            
+            <p> 
+                Coded in <a class="anchor-text" href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> by yours truly. 
+                <br /> 
+                Built with HTML and CSS. 
+                <br /> 
+                Deployed with <a class="anchor-text" href="https://www.netlify.com/" target="_blank">Netlify</a>. All text is set in the <a class="anchor-text" 
+                href="https://rsms.me/inter/" target="_blank">Inter</a> typeface.
+            </p>
+    
+        </footer>
+
+    </main>
+
+    <div id="torch-overlay"></div>    
+</body>
+</html>
+
+<!--BOTTOM NOTES-->
+<!--Note that in this project, the contents of the site were built out basically initially before zooming in on individual parts.-->
+<!--1. We started with mobile first design (We started with a small screen but built the navbar which isn't seen immediately)-->
+<!--2. Then below that we ad the icons-->
+
+<!--About, Experience and Projects are Sections within main-->
+<!--Note that we make use of gaps between sections and cards etc to create space between them, not margins etc-->
+<!--We copied the ecperience card code for the project cards because they're similar and therefore they share the same css in terms of the tags etc-->
+
+<!--We have 3 breakpoints on this site (mobile, slightly bigger and big screen)-->
+<!--This can be seen when adjusting Brittany's one. Cards change to 2-column and then navbar things on the left side-->
+<!--640px is first conversion, then 1024--> 
